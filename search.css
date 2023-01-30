@@ -1,0 +1,57 @@
+#dateContainer {
+	margin-top: 1rem;
+	border: 2px solid #6C6C6C;
+	border-radius: 3px;
+	padding: 5px;
+	background-color: #C0D2E0;
+}
+
+#searchButton{
+	height: 50px;
+	width: 110px;
+}
+
+label {
+	font-family: "Cambria";
+	margin-bottom: 2px;
+}
+
+#numOfResults {
+	width: 100px;
+}
+
+#buttonCol {
+	padding: 10px;
+}
+
+#header {
+	margin-top: 20px;
+}
+
+#resultsContainer {
+	font-family: "Cambria";
+}
+
+table {
+	width: 95%;
+	margin: auto;
+}
+
+#weatherBox {
+	border-style: solid;
+	border-color: #6C6C6C;
+	border-radius: 8px;
+	border-width: 2px;
+	padding: 5px;
+	font-family: "Cambria";
+	background-color: #C0D2E0;
+	margin: 1rem;
+}
+
+.tableButton {
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px;
+	border-color: #7F8081;
+	background-color: #EAEDEF;
+}

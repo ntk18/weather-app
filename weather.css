@@ -1,0 +1,45 @@
+/* Search Bar Styles */
+.searchBox {
+	position: relative;
+	box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+	margin-top: 2rem;
+}
+
+.searchBox input{
+	height: 60px;
+	text-indent: 25px;
+	border: 2px solid #d6d4d4;
+}
+
+.searchBox .fa-search{
+	position: absolute;
+	top: 20px;
+	left: 16px;
+}
+
+.searchBox button{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 50px;
+	width: 110px;
+}
+
+#blankSearchMessage {
+	margin-top: 3px;
+}
+
+/*-------------------*/
+
+/* Weather Container */
+
+#weatherBox {
+	border-style: solid;
+	border-color: #6C6C6C;
+	border-radius: 8px;
+	border-width: 2px;
+	padding: 5px;
+	font-family: "Cambria";
+	background-color: #C0D2E0;
+	margin: 1rem;
+}
