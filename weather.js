@@ -92,7 +92,8 @@ function getWeather() {
 				if (day.substring(0, 1) == "0") {
 					day = day.substring(1);
 				}
-				var dateString = months[currentDate.substring(5, 7)] + " " + day + ", " + currentDate.substring(0, 4);
+				var currentDateFix = (currentDate.substring(5, 6) == '0') ? currentDate.substring(6,7) : currentDate.substring(5, 7);
+				var dateString = months[currentDateFix] + " " + day + ", " + currentDate.substring(0, 4);
 				
 				datesArr[dates.size - 1] = currentDate;
 				days[dates.size - 1] = daysOfWeek[dateForm.getDay()];
