@@ -1,8 +1,8 @@
 var tomtomURL = "https://api.tomtom.com/search/2/search/";
-var tomtomKey = ".json?key=4uWsYoLzY3irv6JX7aqQKI7QAop8MN30";
+var tomtomKey = "**************************";
 
 var openWeatherURL = "https://api.openweathermap.org/data/2.5/forecast?";
-var openWeatherKey = "&appid=da36ca98df3b37254e53f9dfa84e2e01&units=imperial";
+var openWeatherKey = "**************************";
 var iconURL = "http://openweathermap.org/img/wn/";
 var iconURLsuffix = ".png";
 
